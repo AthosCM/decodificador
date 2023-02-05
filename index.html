@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/lupa.png">
+    
+    <title>Decodificador de Texto</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="https://www.alura.com.br/"><img class="logoalura" src="img/logoalura.png" alt="logo-alura"></a>
+    </header>
+
+    <main class="pagina">
+        <section>
+            <textarea class="text-area" cols="45" rows="5" placeholder="Digite seu texto aqui..."></textarea>
+
+            <div class="aviso">
+                <img class="img-aviso" src="img/vector.png" alt="exclamação">
+                <h6 class="txt-aviso">Apenas letras minúsculas e sem acento.</h6>
+            </div>
+
+            <div class="botoes">
+                <button class="btn-criptografar" type="button" onclick="btnCriptografar()">Criptografar</button>
+                <button class="btn-descriptografar" type="button" onclick="btnDescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea id="resultado" class="resultado" cols="20" rows="10" readonly></textarea>
+            
+            <!-- <input class="limpar" type="image" src="img/limpar.png" onclick="limpar('resultado')"> -->
+
+            <div class="botoes">
+                <p class="txt-copiado"></p>
+                <button class="btn-copiar" type="button" onclick="copiar()">Copiar</button>
+            </div>
+
+            <div id="txt-resultado">
+                <p class="txt-maior">Nenhuma mensagem encontrada</p>
+                <p class="txt-menor">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Copyright &copy; 2023, Athos Cabral - Todos os direitos reservados
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

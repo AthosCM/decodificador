@@ -1,0 +1,214 @@
+* {
+    background: #D8DFE8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.logoalura {
+    position: absolute;
+    margin-left: 36px;
+    padding-top: 36px;
+}
+
+.pagina {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.text-area {
+    background: none;
+    border: none;
+    color: #0A3871;
+    margin-top: 160px;
+    margin-left: 105px;
+    margin-bottom: 15px;
+    width: 680px;
+    font-weight: 400px;
+    line-height: 48px;
+    text-transform: lowercase;
+    resize: none;
+} 
+
+.limpar {
+    background: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 410px;
+    margin-top: 32px;
+}
+
+.limpar:hover {
+    animation: infinite;
+}
+
+.limpar:active {
+    border-color: #0A3871;
+}
+
+::placeholder { color: #0A3871; }
+    .text-area:focus {
+        outline: none;
+    }
+
+.aviso {
+    color: #495057;
+    margin-left: 105px;
+    opacity: 0.8;
+    flex: none;
+    flex-grow: 0;
+    flex-flow: row;
+    order: 1;
+    display: flex;
+    align-items: center;
+}
+
+.img-aviso {
+    height: 15px;
+}
+
+.txt-aviso {
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.resultado {
+    background: white;
+    background-image: url(./img/menino.png);
+    background-repeat: no-repeat;
+    background-position: center 20%;
+    background-size: 80%;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0.4em 0.5em 1em #0A3871;
+    text-align: initial;
+    font-size: 28px;
+    color: #0A3871;
+    width: 318px;
+    height: 520px;
+    padding: 42px 30px 0 30px;
+    margin-left: 72px;
+    margin-top: 24px;
+    position: absolute;
+    resize: none;
+}
+
+.resultado:focus {
+    outline: none;
+}
+
+.txt-maior {
+    position: relative;
+    background: none;
+    width: 300px;
+    height: 58px;
+    margin-top: 355px;
+    margin-left: 112px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.txt-menor {
+    position: relative;
+    background: none;
+    width: 230px;
+    margin-left: 147px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+button:hover {
+    border-color: #0a3850;
+    font-size: 18px;
+}
+
+button:active {
+    background: #2F5078;
+    color: white;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 3px;
+    margin-bottom: 9%;
+}
+
+.btn-criptografar {
+    flex-direction: row;
+    align-items: flex-start;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    margin-left: 105px;
+    height: 67px;
+    width: 320px;
+    padding: 24px;
+}
+
+.btn-descriptografar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    margin-left: 30px;
+    height: 67px;
+    width: 320px;
+    padding: 24px;
+}
+
+.btn-copiar {
+    background: white;
+    position: absolute;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    width: 280px;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 480px;
+}
+
+footer {
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
